@@ -281,13 +281,13 @@ local astro_plugins = {
     end,
   },
 
-  -- Smooth scrolling
-  ["declancm/cinnamon.nvim"] = {
-    event = { "BufRead", "BufNewFile" },
-    config = function()
-      require "configs.cinnamon"
-    end,
-  },
+  -- -- Smooth scrolling
+  -- ["declancm/cinnamon.nvim"] = {
+  --   event = { "BufRead", "BufNewFile" },
+  --   config = function()
+  --     require "configs.cinnamon"
+  --   end,
+  -- },
 
   -- Smooth escaping
   ["max397574/better-escape.nvim"] = {
